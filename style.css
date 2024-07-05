@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section1{
+    display: flex;
+    margin-top: 50px;
+}
+
+.para1{
+    padding: 10px;
+}
+.para1 h3{
+    margin-bottom: 20px;
+}
+.btn1{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+img{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
+
+.section2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+.head2{
+    font-size: 25px;
+    padding: 50px;
+    padding-left: 0;
+    color: darkgreen;
+}
+
+.svg1{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.section2-para h5{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.section3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color: darkgreen;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.description{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.description h3{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.section4{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.img1{
+    width: 200px;
+    height: 150px;
+}
+
+.chairs{
+    width: 200px;
+    height: 400px;
+
+    box-shadow: 1px 1px 10px;
+    border-radius: 20px;
+}
+
+.heading3{
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.detail{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.details{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.button-div1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.button-div1 h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn2{
+    margin-top: 2px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
